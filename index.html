@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Quiz Instructions Page -->
+  <section id="quiz-instructions" class="quiz_container">
+    <h1>Quick Quiz</h1>
+    <!-- Instructions -->
+    <ul>
+      <li>You can test your coding skills with this quick quiz.</li>
+      <li>You have only 15 seconds to answer each questions.</li>
+      <li>Once you select the answer, it can't be undone.</li>
+      <li>For each correct answer, you will be rewarded with points.</li>
+      <li>At the end of the Quiz, your total score will be displayed.</li>
+    </ul>
+
+    <!-- Start Button -->
+    <button id="start_btn">Start Quiz</button>
+  </section>
+
+  <!-- Questions Page -->
+  <section id="quiz-questions" class="quiz_container" style="display: none;">
+    <header>
+      <h2 id=question_number></h2>
+      <div>
+        <h2 id="timer" class="timer"></h2>
+      </div>
+    </header>
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <h3 id="question"></h3>
+    <div id="option-buttons"></div>
+    <!-- Next Button -->
+    <button id="next_btn" style="display: none;">Next Question</button>
+  </section>
+
+  <!-- Score Page -->
+  <section id="quiz-results" class="quiz_container" style="display: none;">
+    <h2 id="quiz-score">Your Score: <span id="final-score"></span> / 5</h2>
+    <p class="unattempted">Unattempted</p>
+    <div id="message-area" class="message-area"></div>
+    <!-- Restart Button -->
+    <button id="restart_btn">Restart Quiz</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
