@@ -1,1 +1,2 @@
 # Quiz_Capstone_project_2
+"A Quick Quiz is a JavaScript-based quiz application that tests users on web development concepts like HTML, CSS, and JavaScript. The quiz includes multiple-choice questions, a timer, and tracks the user's score. It also handles unattempted questions and provides feedback based on performance. The app features a clean and responsive design with progress tracking. Users can restart the quiz and receive a personalized message based on their score."
